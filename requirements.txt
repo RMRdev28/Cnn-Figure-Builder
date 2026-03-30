@@ -1,0 +1,10 @@
+# CNN Figure Builder — pip dependencies (optional features).
+#
+# Core app: Python 3.9+ with Tkinter (stdlib on Windows/macOS installers).
+# Linux: install Tk before running, e.g.  sudo apt install python3-tk
+#
+# groq     — AI “generate architecture” (set GROQ_API_KEY in .env; see .env.example)
+# Pillow   — Picture layers (image on canvas) and PNG export
+
+groq>=0.4.0
+Pillow>=10.0.0
